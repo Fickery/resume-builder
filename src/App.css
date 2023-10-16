@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@300;400;500;700;900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  font-family: "Inconsolata", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  min-width: 800px;
+  color: black;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  text-transform: uppercase;
+}
+
+/* form */
+
+.form-section {
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: start;
+  margin-bottom: 0.75rem;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid black;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group > input {
+  color: black;
+  background-color: white;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  text-align: start;
+  margin-bottom: 0.5rem;
+}
+
+.form-input-text {
+  width: 100%;
+  padding: 0.85rem;
+  border: 1px solid #ccc;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important;
+}
+
+/* form */
